@@ -1,18 +1,4 @@
-IP,Abuse Score,Country,ISP,Total Reports
-211.223.107.86,100,KR,Korea Telecom,23297
-156.232.13.218,100,US,Yisu Cloud Ltd,6083
-147.185.133.62,0,FI,"Palo Alto Networks, Inc",1866
-116.179.32.80,100,CN,China United Network Communications Corporation Limited,207
-98.91.178.35,24,US,Amazon Data Services Northern Virginia,3
-92.118.39.71,100,RO,DMZHOST,12409
-61.164.48.42,15,CN,ZHEJIANG WANXIANG Seiko LTD.,3
-47.132.209.110,100,US,Charter Communications LLC,782
-14.225.218.99,100,VN,Vietnam Posts and Telecommunications Group,739
-216.73.163.7,52,US,"Prefixx, Inc.",12
-199.45.154.176,100,HK,"Censys, Inc.",5311
-184.166.76.179,4,US,Charter Communications LLC,1
-101.126.14.37,100,CN,"Beijing Volcano Engine Technology Co., Ltd.",711
-92.204.138.44,100,US,Host Europe GmbH,1070
-52.176.211.73,100,US,Microsoft Corporation,6814
-45.156.87.166,100,NL,TechTies Inc.,5573
-36.50.134.129,100,VN,LIEN CLOUD TECHNOLOGY COMPANY LIMITED,2256
+Type,Indicator,Metric1,Metric2,Metric3,Metric4
+Domain,google.com,0,0,60,714
+Domain,spotify.com,0,0,59,9
+Domain,claude.ai,0,0,58,2

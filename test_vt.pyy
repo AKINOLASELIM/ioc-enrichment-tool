@@ -1,0 +1,24 @@
+import requests
+import os
+
+api_key = os.environ.get("VIRUSTOTAL_KEY")
+
+domain = "google.com"
+url = f"https://www.virustotal.com/api/v3/domains/{domain}"
+
+headers = {
+    "x-apikey": api_key
+}
+
+response = requests.get(url, headers=headers, timeout=5)
+
+#print(response.status_code)
+#print(response.json())
+
+data = response.json()
+attributes = data["data"]["attributes"]
+stats = attributes["last_analysis_stats"]
+
+print("Malicious:", stats["malicious"])
+print("Harmless:", stats["harmless"])
+print("Reputation:", attributes["reputation"])
